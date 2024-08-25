@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import IntroSection from './_components/IntroSection';
-import FeaturesSection from './_components/FeaturesSection';
-import CarouselSection from './_components/CarouselSection';
-import Separator from './_components/Separator';
-import Footer from '@/components/Footer';
-import ContactForm from '@/components/ContactForm';
+import Image from "next/image";
+import IntroSection from "./_components/IntroSection";
+import FeaturesSection from "./_components/FeaturesSection";
+import CarouselSection from "./_components/CarouselSection";
+import Separator from "./_components/Separator";
+import Footer from "@/components/Footer";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -12,12 +12,12 @@ export default function Home() {
       <main>
         <Separator />
         <IntroSection />
-        <div className='bg-white'>
+        <div className="bg-white">
           <FeaturesSection />
-        </div>        
+        </div>
       </main>
       <CarouselSection />
-      <div className='bg-white'>
+      <div className="bg-white">
         <ContactForm />
       </div>
       <Footer />

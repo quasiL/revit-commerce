@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import Link from 'next/link';
-import NavLinks from './NavLinks';
+import Link from "next/link";
+import NavLinks from "./NavLinks";
 
 export default function NavBar() {
   const flexBetween = "flex items-center justify-between";
