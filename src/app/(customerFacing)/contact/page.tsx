@@ -1,7 +1,13 @@
+import ContactForm from "@/components/ContactForm";
+import Footer from "@/components/Footer";
+import Separator from "../_components/Separator";
+
 export default function Contact() {
   return (
     <section>
-      <h1>Contact</h1>
+      <Separator />
+      <ContactForm />
+      <Footer />
     </section>
   );
 }
