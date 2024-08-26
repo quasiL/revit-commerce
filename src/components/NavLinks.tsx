@@ -82,7 +82,7 @@ export default function NavLinks() {
               return (
                 <Link
                   key={link.name}
-                  href="/cart"
+                  href={link.href}
                   className={clsx(
                     `text-white hover:text-gray-100 hover:${underline}`,
                     {
